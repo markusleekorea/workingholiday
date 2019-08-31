@@ -1,0 +1,104 @@
+.header{
+  color: black;
+}
+
+h1{
+  padding-top: 10px;
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 19px;
+  width: 800px;
+}
+
+h2{
+  color: white;
+}
+
+#block_menu{
+  /*
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  */
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+#grid_menu{
+  display: grid;
+  grid-template-columns: 155px 200px 200px;
+  padding: 10px;
+  /*
+  border-right: 1px solid white;
+  */
+  text-decoration-color: white;
+}
+
+body{
+  background-color: black;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Geneva;
+  color: white;
+}
+
+strong{
+  color: white;
+}
+
+a{
+  text-decoration:none;
+  color: white;
+  text-align: center;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 19px;
+}
+
+@media(max-width:628px){
+  #grid_menu{
+    grid-template-columns: 3fr 4fr 4fr;
+  }
+}
+
+@media (max-width:850px) {
+  p{
+    margin-right: 19px;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+    margin-right: 19px;
+  }
+
+  #grid_menu{
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+
+@media(max-width:800px){
+	#grid{
+		display:block;
+	}
+	ol{
+		border-right:none;
+	}
+	h1{
+
+
+…
+
+*/
